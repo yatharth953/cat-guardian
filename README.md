@@ -30,6 +30,8 @@ Every new behaviour has its own switch in **Settings**, and the copy-paste featu
 
 **Double-click `main.py`.** It relaunches itself inside the project virtualenv without a console window and shows a dialog if anything is missing, so startup never fails silently.
 
+New to Python or setting this up for the first time? Follow the full walkthrough in **[INSTALL.md](INSTALL.md)** — it covers installing Python, creating the virtualenv, loading the extension and troubleshooting.
+
 To set it up from a terminal instead:
 
 ```powershell
