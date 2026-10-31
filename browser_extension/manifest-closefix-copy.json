@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Cat Guardian \u2014 Local Website Blocker",
+  "version": "0.3.0",
+  "description": "Locally detects configured distraction sites, sends the desktop cat to swipe the tab, and closes it through the Cat Guardian app.",
+  "permissions": [
+    "tabs",
+    "storage",
+    "webNavigation"
+  ],
+  "host_permissions": [
+    "http://127.0.0.1:8765/*",
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "service_worker.js"
+  },
+  "options_page": "options.html",
+  "action": {
+    "default_title": "Cat Guardian"
+  }
+}
